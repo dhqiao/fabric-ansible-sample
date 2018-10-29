@@ -1,0 +1,19 @@
+127.0.0.1 localhost
+
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+127.0.0.1 localhost
+127.0.0.1 localhost
+127.0.0.1       admin-child.365ibook.com
+127.0.0.1       child.365ibook.com
+
+# qiao blockchain host
+101.200.44.230 orderer.example.com # 我的阿里云
+101.200.44.230 peer0.org1.example.com # 我的阿里云
+106.12.104.82 peer1.org1.example.com # 百度云
+116.62.196.177 peer0.org2.example.com # 姚的阿里云
+
+101.200.44.230 orderer0.member1.example.com 
+101.200.44.230 peer0.member1.example.com 
+106.12.104.82 peer1.member1.example.com 
+116.62.196.177 peer0.member2.example.com 
