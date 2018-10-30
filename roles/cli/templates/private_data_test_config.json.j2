@@ -1,21 +1,21 @@
 [
   {
     "name": "techHousePropertyTransactionTwo",
-    "policy": "OR('Org1MSP','Org2MSP')",
+    "policy": "OR('Org1MSP.member','Org2MSP.member')",
     "requiredPeerCount": 0,
     "maxPeerCount": 1,
     "blockToLive":1000000
   },
   {
     "name": "techHousePropertyTransactionOne",
-    "policy": "OR('Org1MSP')",
+    "policy": "OR('Org1MSP.member')",
     "requiredPeerCount": 0,
     "maxPeerCount": 1,
     "blockToLive":1000000
   },
   {
     "name": "techHousePropertyTransactionTemp",
-    "policy": "OR('Org1MSP')",
+    "policy": "OR('Org1MSP.member')",
     "requiredPeerCount": 0,
     "maxPeerCount": 1,
     "blockToLive":3
