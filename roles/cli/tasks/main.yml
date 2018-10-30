@@ -54,3 +54,12 @@
     - peer
     - exec
     - private_data_test_config
+
+
+- name: upload json file
+  template:
+    src: "{{ item }}.json.j2"
+    dest: "{{ cli_install_path }}/user/{{ peer_org }}/{{ user }}-{{ peer }}/{{ item }}.json"
+    mode: u=rwx
+  with_items:
+    - private_data_test_config
