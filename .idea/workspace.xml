@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d20ad6d-4f68-4941-8ff3-3767a03ac501" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/roles/cli/templates/4_instantiate_chaincode.sh.j2" beforeDir="false" afterPath="$PROJECT_DIR$/roles/cli/templates/4_instantiate_chaincode.sh.j2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roles/cli/templates/private_data_test_config.json.j2" beforeDir="false" afterPath="$PROJECT_DIR$/roles/cli/templates/private_data_test_config.json.j2" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +29,7 @@
       </file>
       <file leaf-file-name="private_data_test_config.json.j2" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/roles/cli/templates/private_data_test_config.json.j2">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="55" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="3_install_chaincode.sh.j2" pinned="false" current-in-tab="false">
@@ -260,11 +255,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/roles/cli/templates/private_data_test_config.json.j2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="55" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
