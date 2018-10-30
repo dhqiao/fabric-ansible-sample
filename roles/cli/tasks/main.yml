@@ -53,3 +53,4 @@
     - 8_3_install_chaincode
     - peer
     - exec
+    - private_data_test_config

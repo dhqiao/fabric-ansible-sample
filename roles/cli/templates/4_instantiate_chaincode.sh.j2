@@ -25,4 +25,4 @@ export CORE_LOGGING_LEVEL=DEBUG
 export CORE_PEER_LOCALMSPID={{ mspid }}
 export CORE_PEER_ADDRESS={{ peer }}:7051
 
-peer chaincode instantiate -o {{ orderer }}:7050 --tls true --cafile {{ orderer_ca }} -C $CHANNEL_NAME -n $NAME -v $VERSION -c '{"Args":["init"]}' -P "OR ('peers.member1.example.com.member','peers.member2.example.com.member')"
+peer chaincode instantiate -o {{ orderer }}:7050 --tls true --cafile {{ orderer_ca }} -C $CHANNEL_NAME -n $NAME -v $VERSION -c '{"Args":["init"]}' -P "OR ('member1.example.com','member2.example.com')" --collections-config ./private_data_test_config.json
