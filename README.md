@@ -284,16 +284,7 @@ Fabric1.2.x默认使用下面的镜像，最好在peer上提前下载好：
 	$ ./5_query_chaincode.sh
 	key1value
 
-## 联系
 
-要获得更多的内容，可以关注：
-
-        微信公众号： “我的网课”，(关注后可以获得我微信)
-        QQ交流群： 576555864
-
-如果视频中有讲解不到位或需要订正的地方，可以加入：
-
-![知识星球区块链实践分享](http://www.lijiaocn.com/img/xiaomiquan-blockchain.jpg)
 
 ## 参考
 
